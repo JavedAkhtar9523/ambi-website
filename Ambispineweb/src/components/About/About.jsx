@@ -74,6 +74,8 @@ import { LuLoader2 } from "react-icons/lu";
 import { FaEnvelope } from "react-icons/fa";
 import { BsPatchCheck } from "react-icons/bs";
 import Counting from "./Counting";
+import TeamMemberImg1 from "../../Images/admin.png";
+import TeamMemberImg2 from "../../Images/user.png";
 
 // TeamMember component
 export const TeamMember = ({ name, role, location, rating, imgSrc }) => (
@@ -110,30 +112,30 @@ const AboutMe = () => {
     {
       name: "Mayank Shrivastava",
       role: "Directo and cmo",
-      location: "Mumbai, India",
+      location: "Riwa, India",
       rating: formData.rating,
-      imgSrc: "https://randomuser.me/api/portraits/men/1.jpg",
+      imgSrc: TeamMemberImg1,
     },
     {
       name: "Aditya Shrivastava",
       role: "Director",
-      location: "Bangalore, India",
+      location: "Riwa, India",
       rating: formData.rating,
-      imgSrc: "https://randomuser.me/api/portraits/men/67.jpg",
+      imgSrc: TeamMemberImg2,
     },
     {
       name: "Abhishek singh",
       role: "Product manager",
-      location: "Delhi, India",
+      location: "Riwa, India",
       rating: formData.rating,
-      imgSrc: "https://randomuser.me/api/portraits/men/9.jpg",
+      imgSrc: TeamMemberImg1,
     },
     {
       name: "Sanjay kumar ",
       role: "Project manager",
-      location: "Chennai, India",
+      location: "Riwa, India",
       rating: formData.rating,
-      imgSrc: "https://randomuser.me/api/portraits/men/85.jpg",
+      imgSrc: TeamMemberImg2,
     },
   ];
 

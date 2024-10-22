@@ -441,8 +441,13 @@ const Header = () => {
     <header className={`header ${isScrolled ? "header--scrolled" : ""}`}>
       <nav className="header__nav">
         <Link to="/" className="header__logo">
-          <img src={logo} alt="AmbiSpine Logo" className="header__logo-img" />
-          <span className="header__logo-text">AmbiSpine</span>
+          <img
+            src={logo}
+            alt="AmbiSpine Logo"
+            className="header__logo-img"
+            width={500}
+          />
+          {/* <span className="header__logo-text">AMBISPINE</span> */}
         </Link>
 
         <div

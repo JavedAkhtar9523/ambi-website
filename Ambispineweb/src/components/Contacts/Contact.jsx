@@ -557,6 +557,8 @@ import contact1 from "../../Images/home.jpg";
 import "./Contact.css";
 import { TeamMember } from "../About/About";
 import ReactStars from "react-rating-stars-component";
+import TeamMemberImg1 from "../../Images/admin.png";
+import TeamMemberImg2 from "../../Images/user.png";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -625,30 +627,30 @@ export default function Contact() {
     {
       name: "Mayank Shrivastava",
       role: "Directo and cmo",
-      location: "Mumbai, India",
+      location: "Riwa, India",
       rating: formData.rating,
-      imgSrc: "https://randomuser.me/api/portraits/men/1.jpg",
+      imgSrc: TeamMemberImg1,
     },
     {
       name: "Aditya Shrivastava",
       role: "Director",
-      location: "Bangalore, India",
+      location: "Riwa, India",
       rating: formData.rating,
-      imgSrc: "https://randomuser.me/api/portraits/men/67.jpg",
+      imgSrc: TeamMemberImg2,
     },
     {
       name: "Abhishek singh",
       role: "Product manager",
-      location: "Delhi, India",
+      location: "Riwa, India",
       rating: formData.rating,
-      imgSrc: "https://randomuser.me/api/portraits/men/9.jpg",
+      imgSrc: TeamMemberImg1,
     },
     {
       name: "Sanjay kumar ",
       role: "Project manager",
-      location: "Chennai, India",
+      location: "Riwa, India",
       rating: formData.rating,
-      imgSrc: "https://randomuser.me/api/portraits/men/85.jpg",
+      imgSrc: TeamMemberImg2,
     },
   ];
 

@@ -120,31 +120,55 @@ const Product = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <video className="d-block w-100" height="300" controls>
+            <video className="d-block w-100" height="300" controls autoPlay>
               <source src={productCrousel_1} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
           <div className="carousel-item">
-            <video className="d-block w-100" height="300" controls>
+            <video
+              className="d-block w-100"
+              height="300"
+              controls
+              autoPlay
+              loop
+            >
               <source src={productCrousel_2} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
           <div className="carousel-item">
-            <video className="d-block w-100" height="300" controls>
+            <video
+              className="d-block w-100"
+              height="300"
+              controls
+              autoPlay
+              loop
+            >
               <source src={productCrousel_1} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
           <div className="carousel-item">
-            <video className="d-block w-100" height="300" controls>
+            <video
+              className="d-block w-100"
+              height="300"
+              controls
+              autoPlay
+              loop
+            >
               <source src={productCrousel_2} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
           <div className="carousel-item">
-            <video className="d-block w-100" height="300" controls>
+            <video
+              className="d-block w-100"
+              height="300"
+              controls
+              autoPlay
+              loop
+            >
               <source src={productCrousel_1} type="video/mp4" />
               Your browser does not support the video tag.
             </video>

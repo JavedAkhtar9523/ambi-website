@@ -1,7 +1,7 @@
 import React from "react";
 
 const WhatsappIcon = () => {
-  const phoneNumber = "1234567";
+  const phoneNumber = "9685221056";
   const message = "Hello, I am founder of AmbiSpine technology";
 
   const handleClick = () => {
