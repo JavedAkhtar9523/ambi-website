@@ -155,7 +155,9 @@ const ImageCarousel = () => {
           >
             <div className="carousel-content">
               <h2 className="carousel-head-text">{image.headText}</h2>
-              <p className="carousel-text">{image.text}</p>
+              <p style={{ color: "#fff" }} className="carousel-text">
+                {image.text}
+              </p>
             </div>
           </div>
         ))}

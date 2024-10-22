@@ -150,7 +150,9 @@ const AboutMe = () => {
           <div className="main-content">
             <div>
               <h1>About Us</h1>
-              <p>Get the latest news, updates, and tips</p>
+              <p style={{ color: "#fff" }}>
+                Get the latest news, updates, and tips
+              </p>
             </div>
             {/* <div>
               <div className="anchor-btn">

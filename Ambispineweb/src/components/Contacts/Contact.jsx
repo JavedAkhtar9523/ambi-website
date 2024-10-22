@@ -659,7 +659,7 @@ export default function Contact() {
       <header className="contact-header">
         <div className="contact-header-content">
           <h1>Connect with us</h1>
-          <p>
+          <p style={{ color: "#fff" }}>
             Tap into our solutions to empower clients globally to forge a more
             resilient, secure, and sustainable path forward. Contact us for
             better solutions.
@@ -952,9 +952,10 @@ export default function Contact() {
         </div>
         <div className="map-info">
           <h2>Our Offices</h2>
-          <p>District Rewa, Village Bidawa (M.P.)</p>
+          <p style={{ color: "#fff" }}>District Rewa, Village Bidawa (M.P.)</p>
           <a
             href="https://www.google.com/maps?ll=24.566207,81.326881&z=16&t=m&hl=en&gl=IN&mapclient=embed&cid=9439778419335378389"
+            target="_blank"
             className="map-link"
           >
             Try Google Maps

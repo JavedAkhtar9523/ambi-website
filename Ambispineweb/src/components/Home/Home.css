@@ -379,7 +379,8 @@
   .hero-title {
     font-size: 3.5rem;
     font-weight: 700;
-    color: #ffffff;
+    /* color: #ffffff; */
+    color: var(--text-primary);
     margin-bottom: 0.5rem;
     animation: fadeInUp 1s ease-out;
   }

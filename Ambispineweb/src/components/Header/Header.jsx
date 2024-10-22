@@ -396,6 +396,8 @@ import logo from "../../Images/AmbiSpine_logo.png";
 import "./Header.css";
 import { useDispatch, useSelector } from "react-redux";
 import { setLanguage } from "../../redux/slices/languageSlice";
+import { ThemeToggle } from "../Theme/ThemeToggle";
+// import ThemeToggle from "./ThemeToggle";
 
 const Header = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
@@ -435,7 +437,8 @@ const Header = () => {
     location.pathname === "/contact" ||
     location.pathname === "/career" ||
     location.pathname === "/aboutus" ||
-    location.pathname === "/product";
+    location.pathname === "/product" ||
+    location.pathname === "/termsandprivacy";
 
   return (
     <header className={`header ${isScrolled ? "header--scrolled" : ""}`}>
@@ -561,8 +564,8 @@ const Header = () => {
               </div>
             </div>
           </div> */}
-          <ul>
-            <li>
+          <ul className="dropdownUl">
+            <li className="dropdownLi">
               <div className="nav-item dropdown">
                 <Link to="/" className="nav-link">
                   Who We Are <FaChevronDown />
@@ -573,7 +576,7 @@ const Header = () => {
                       <h3 style={{ color: "#333" }}>Who We are</h3>
                       <hr />
                       <h2>About Us</h2>
-                      <p>
+                      <p style={{ color: "#fff" }}>
                         As we step into a new era of innovation, solution is at
                         the forefront of exploring the intersection of human
                         ingenuity and technological advancements. Our mission is
@@ -620,9 +623,9 @@ const Header = () => {
                     <div className="services-section">
                       <h3 style={{ color: "#605d5d" }}>View Services</h3>
                       <hr />
-                      <ul>
+                      <ul className="dropdownUl">
                         <li
-                          className="platform-dropdown-wrapper"
+                          className="platform-dropdown-wrapper dropdownLi"
                           onMouseEnter={() => setIsPlatformHovered(true)}
                           onMouseLeave={() => setIsPlatformHovered(false)}
                         >
@@ -634,19 +637,19 @@ const Header = () => {
                               <div className="platform-content">
                                 <div className="platform-item">
                                   <h4>
-                                    <Link to="/platform">Spread</Link>
+                                    <Link to="/product">Spreads</Link>
                                   </h4>
                                   <p>Coming Soon</p>
                                 </div>
                                 <hr />
-                                <div className="platform-item">
+                                {/* <div className="platform-item">
                                   <h4>
                                     <Link to="/platform">
                                       Ambispine Web Solution
                                     </Link>
                                   </h4>
                                   <p>Coming Soon</p>
-                                </div>
+                                </div> */}
                               </div>
                             </div>
                           )}
@@ -736,6 +739,7 @@ const Header = () => {
           {/* <Link to="/signin" className="header__signin-btn">
             {currentLanguage === "en" ? "Sign In" : "साइन इन"}
           </Link> */}
+          <ThemeToggle />
           <button
             onClick={toggleMobileMenu}
             className="header__mobile-menu-btn"
@@ -775,6 +779,7 @@ const Header = () => {
           </div>
         </div>
       )}
+      {/* <ThemeToggle /> */}
     </header>
   );
 };

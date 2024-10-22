@@ -553,9 +553,11 @@ a:hover {
 }
 
 .positions-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  display: flex;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  gap: 10rem;
+  width: 970px;
+
 }
 
 .position-card {

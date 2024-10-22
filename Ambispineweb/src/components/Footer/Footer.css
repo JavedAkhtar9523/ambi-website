@@ -242,6 +242,12 @@
         position: relative;
         display: inline-block;
       }
+      .footer-section p{
+        color: #fff !important;
+      }
+      .footer-bottom p{
+        color: #7d7d7d;
+      }
       
       .footer-title::after {
         content: '';

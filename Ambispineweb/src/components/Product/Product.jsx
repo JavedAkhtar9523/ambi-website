@@ -3,7 +3,7 @@ import "./product.css";
 import { LiaMobileAltSolid } from "react-icons/lia";
 import productCrousel_1 from "../../Images/productcrousel1.mp4";
 import productCrousel_2 from "../../Images/productcrousel2.mp4";
-import productImage from "../../Images/productImage.jpg";
+import productImage2 from "../../Images/productImage2.jpg";
 
 const Product = () => {
   return (
@@ -11,7 +11,7 @@ const Product = () => {
       <main className="product-main">
         <img
           className="product-image"
-          src={productImage}
+          src={productImage2}
           alt="Skincare Product"
         />
       </main>

@@ -869,8 +869,9 @@ p {
   border-radius: 5px;
 }
 
-ul {
-  list-style-type: none;
+.dropdownUl {
+  list-style-type: none !important;
+  margin-bottom: 23px;
   /* padding: 0; */
   /* margin-top: 190px; */
 }
@@ -879,7 +880,7 @@ ul {
   margin-bottom: 10px;
 } */
 
-li a {
+.dropdownLi a {
   color: white;
   text-decoration: none;
 }

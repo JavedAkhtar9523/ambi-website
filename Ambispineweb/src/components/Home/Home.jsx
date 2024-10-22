@@ -234,7 +234,7 @@ import homeRightImage from "../../Images/HomeRightImage-2.png";
 import HomeImage from "../../Images/careerImage.jpg";
 import ImageCarousel from "./ImageCarousel";
 import { useTranslation } from "../../hooks/useTranslation";
-import HomeHero from "../../Images/HomeHero.jpg";
+import Homeimg from "../../Images/Homeimg.jpg";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -360,7 +360,7 @@ const Home = () => {
           celebrate diversity, creativity and connection.
         </p>
         <div className="feature-image">
-          <img src={HomeHero} alt="Feature" />
+          <img src={Homeimg} alt="Feature" />
         </div>
       </section>
 

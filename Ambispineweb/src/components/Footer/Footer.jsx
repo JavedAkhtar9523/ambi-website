@@ -241,8 +241,8 @@ export default function Footer() {
         <FooterSection
           title="Support"
           links={[
-            { href: "#", text: "Privacy Statement" },
-            { href: "#", text: "Terms of Use" },
+            { href: "/termsandprivacy", text: "Privacy Statement" },
+            { href: "/termsandprivacy", text: "Terms and condition" },
             { href: "#", text: "Cookie Policy" },
             // { href: "#", text: "Spreads Support" },
             // { href: "#", text: "Spreads ADs Support" },
